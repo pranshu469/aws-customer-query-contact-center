@@ -5,4 +5,4 @@
 5.	We have used another Lambda function and added the DDB as a trigger, which will initiate an outbound call using start-outbound-voice-contact API provided by Amazon Connect.
 6.	In StartOutboundVoiceContact we’ll specify contact flow id, which contains a dedicated queue for holding these contacts and calls will be made as per agent staffing in call center.
 
-Architecture : 
+Architecture : https://github.com/pranshu469/aws-customer-query-contact-center/blob/main/Customer%20Query%20Contact%20Center.png
